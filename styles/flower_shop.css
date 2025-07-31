@@ -172,14 +172,16 @@ body{
 /* Deals Image Styles */
 .deals-image{
   display: grid;
-  gap: 10px;
+  row-gap: 15px;
+  column-gap: 5px;
   grid-template-areas: 
   "box-1  box-3  box-3"
   "box-2  box-3  box-3"
   ;
 }
 .box-1{
-  background-color: gray;
+  width: 367px;
+  height: 201px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -187,7 +189,8 @@ body{
   align-items: center;
 }
 .box-2{
-  background-color: gray;
+  width: 367px;
+  height: 197px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -195,7 +198,8 @@ body{
   align-items: center;
 }
 .box-3{
-  background-color: gray;
+  width: 753px;
+  height: 418px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -216,7 +220,6 @@ body{
 /* Section 01 */
 .section1{
   height: 533px;
-  background-color: burlywood;
   margin-top: 120px;
   text-align: center;
   display: flex;
