@@ -49,6 +49,16 @@ body{
   font-weight: 800;
   color: #FFFFFF;
 }
+.heading-style_06{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.heading-style_07{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
 
 /* Paragraph Styles */
 .paragraph_style-01{
@@ -142,4 +152,42 @@ body{
 .ambience{
   width: 540px;
 }
+/* Flower Shop Deals Styles */
 
+.flower-shop-deals{
+  margin-top: 135px;
+}
+.deals-details{
+  width: 870px;
+  text-align: center;
+  margin: auto;
+}
+
+/* Deals Image Styles */
+.deals-image{
+  display: grid;
+}
+.box-1{
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-2{
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-3{
+  background-color: gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
