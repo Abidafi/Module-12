@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+body{
+  background-color: aliceblue;
+}
+
 /* Heading Styles */
 .heading-style_01{
   font-size: 4rem;
@@ -70,6 +74,14 @@
   max-width: 1440px;
   margin: auto;
 }
+.buttton{
+  background-color: #E95A08;
+  width: 270px;
+  color: white;
+  padding: 26px 50px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
 
 /* Navbar and Banner Styles */
 
@@ -89,9 +101,38 @@
     justify-content: center;
     align-items: center;
 }
-.banner{
+.banner, .plant-showcase{
   margin-top: 120px;
 }
 .banner-image{
   width: 50%;
 }
+
+/* Plant Showcase Styles */
+
+.showcase-details{
+  text-align: center;
+}
+.text-style_01{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000000;
+}
+.text-style_02{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+}
+.plant-images{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+}
+.plant-detail{
+  width: 270px;
+  text-align: center;
+}
+.plant-detail img{
+  width: 100%;
+}
+
