@@ -18,3 +18,80 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Heading Styles */
+.heading-style_01{
+  font-size: 4rem;
+  font-weight: 800;
+  color: #000000;
+}
+.heading-style_02{
+  font-size: 4rem;
+  font-weight: 800;
+  color: #E95A08;
+}
+.heading-style_03{
+  font-size: 3rem;
+  font-weight: 800;
+  color:#E95A08;
+}
+.heading-style_04{
+  font-size: 3rem;
+  font-weight: 800;
+  color: #000000;
+}
+.heading-style_05{
+  font-size: 3rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+/* Paragraph Styles */
+.paragraph_style-01{
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.500);
+}
+
+/* Shared Styles */
+
+.display-flex{
+    display: flex;
+}
+.common-bg{
+  /*color: rgba(240, 248, 255, 0.500);*/
+  color: aqua;
+}
+.container-01{
+  max-width: 1140px;
+  margin: auto;
+}
+.container-02{
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* Navbar and Banner Styles */
+
+.navbar{
+  justify-content: space-between;  
+}
+.nav-item{
+    list-style: none;
+    margin-right: 48px;    
+}
+.nav-links{
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+  margin-top: 120px;
+}
+.banner-image{
+  width: 50%;
+}
