@@ -72,10 +72,7 @@ body{
 .display-flex{
     display: flex;
 }
-.common-bg{
-  /*color: rgba(240, 248, 255, 0.500);*/
-  color: aqua;
-}
+
 .container-01{
   max-width: 1140px;
   margin: auto;
@@ -111,8 +108,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.banner, .plant-showcase{
+.banner{
   margin-top: 120px;
+  display: flex;
+}
+.banner-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .banner-image{
   width: 50%;
@@ -120,6 +123,9 @@ body{
 
 /* Plant Showcase Styles */
 
+.plant-showcase{
+  margin-top: 120px;
+}
 .showcase-details{
   text-align: center;
 }
@@ -206,4 +212,77 @@ body{
   grid-area: box-3;
 }
 
+/* Footer Section Styles */
+/* Section 01 */
+.section1{
+  height: 533px;
+  background-color: burlywood;
+  margin-top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttton-footer{
+  background-color: #E95A08;
+  width: 186px;
+  height: 52px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#direct{
+  width: 644px;
+  height: 50px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+}
+/* Section 02 */
+.section2{
+  height: 348px;
+  background-color: azure;
+  padding: 50px 160px 50px 160px;
+  display: flex;
+  justify-content:space-evenly;
+}
+.part-1{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.part-2{
+  
+}
+.part-2_item{
+  list-style: none;
+}
+.part-2_link{
+  text-decoration: none;
+}
+.part-2_list{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.part-3{
+
+}
+.part-3_item{
+  list-style: none;
+}
+.part-3_link{
+  text-decoration: none;
+}
+.part-3_list{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.part-4{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
 
