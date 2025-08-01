@@ -125,6 +125,32 @@ body{
   width: 50%;
 }
 
+/* Navbar and Banner Responsive for Mobile Device */
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .banner-image{
+    width: 100%;
+  }
+  .banner-details{
+    width: 100%;
+    text-align: left;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+}
 /* Plant Showcase Styles */
 
 .plant-showcase{
@@ -161,6 +187,20 @@ body{
 }
 .ambience{
   width: 540px;
+}
+
+/* Plant Showcase Responsive Styles for Mobile Device */
+
+@media screen and (max-width: 576px) {
+  .plant-images{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  } 
+  .plant-ambience{
+    margin-top: 42px;
+    gap: 18px;
+    flex-direction: column;
+  } 
 }
 /* Flower Shop Deals Styles */
 
@@ -220,6 +260,22 @@ body{
   grid-area: box-3;
 }
 
+/* Flower Shop Deals Mobile Responsive Styles */
+
+@media screen and (max-width: 576px) {
+  .flower-shop-deals{
+    width: 100%;
+    margin-top: 100px;
+    margin: auto;
+  }
+  .deals-image{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /* Footer Section Styles */
 /* Section 01 */
 .section1{
@@ -247,6 +303,16 @@ body{
 .contact{
   display: flex;
   justify-content: center;
+}
+
+/* Footer Section 01 Mobile Responsive Styles */
+
+@media screen and (max-width: 576px) {
+  .section1{
+    width: auto;
+    margin-top: 40%;
+    text-align: center;
+  }
 }
 /* Section 02 */
 .section2{
@@ -287,5 +353,14 @@ body{
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+/* Footer Section2 Mobile Responsive Styles */
+
+@media screen and (max-width: 576px) {
+  .section2{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
